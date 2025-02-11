@@ -21,6 +21,6 @@ WORKDIR /app
 
 COPY --from=build /app/signet signet
 
-EXPOSE 8080
+EXPOSE 8089
 
 ENTRYPOINT ["./signet"]
