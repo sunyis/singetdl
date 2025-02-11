@@ -7,4 +7,4 @@ services:
     environment:
       - URL=${APP_URL}
     ports:
-      - ${APP_PORT:-0}:8080
+      - ${APP_PORT:-0}:8089
