@@ -28,7 +28,7 @@ func main() {
 // port returns the proxy port
 func port() string {
 	if p := os.Getenv("PORT"); p == "" {
-		return ":8080"
+		return ":8089"
 	} else {
 		return ":" + p
 	}
